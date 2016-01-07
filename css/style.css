@@ -1,0 +1,127 @@
+body{
+    background-color: #000000;
+    color:#ffffff;
+    font-family: 'Raleway', sans-serif;
+}
+body h1 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.reset {
+    padding: 10px;
+    float: left;
+    background-color: #ff8533;
+    border: 3px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;}
+.questions h2{
+   font-family: 'Anonymous Pro', ;
+    color: #ffffff;}
+.boton{
+    position: absolute;
+    left:50%;
+}
+.start{
+    padding: 15px;
+    background-color: #2d8659;
+    border: 3px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+}
+.counter{color: green;}
+/*Questions style*/
+#questions {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 80px;
+    text-align: center;
+    background: #666666;
+    background: -webkit-linear-gradient(#666666, #0d0d0d); /*For Safari 5.1 to 6.0*/
+    background: -o-linear-gradient(#666666, #0d0d0d); /*For Opera 11.1 to 12.0*/
+    background: -moz-linear-gradient(#666666, #0d0d0d); /*For Mozilla Firefoz 3.16 to 15*/
+    background: linear-gradient(#666666, #0d0d0d); /*Standard Syntax (it must be last)*/
+    border-radius: 20px;
+    padding: 10px;
+}
+#questions h2{
+ font-family: Arial, Helvetica, sans-serif;   
+}
+/*Answers style*/
+.answers{
+   }
+.answer{
+    display: inline-block;
+    width: 150px;
+    height:150px;
+    background-color: #1a4c33;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    color:#ffffff;
+    text-align: center;
+    margin: 10px;
+}
+.answer a {
+    height: 100%;
+    text-decoration: none;
+    display: inline-block;
+    color:#ffffff;
+}
+.answer:hover{
+    background-color: #3bab73;
+}
+.answer h3 {
+	width: 110px;
+	position: relative;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 100;
+	margin-top: 60px;
+	padding: 10px;
+	/*margin-left: 20px;*/
+     font-family: 'Raleway', sans-serif;
+}
+/*selected aswer - se llama desde JS*/
+
+.selectedAnswer {
+	background-color: #445155;
+}
+
+/*answer submit button*/
+#submit-button {
+    display: inline-block;
+    position: relative;
+    background-color: #cc5200;
+    width:150px;
+    height:150px;
+    border-radius: 75px;
+    margin: -135px 0px 0px 835px;
+}
+#submit-button:hover {
+    background-color: grey;
+}
+#arrow{
+    display: inline-block;
+    position:relative;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+/*styles of second version elements*/
+.next{
+    background-color: #2d8659;
+    border: 2px solid #2d8659;
+    border-radius: 5px;
+    color:#ffffff;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 16px;
+    margin-left: 16px;
+    
+}
